@@ -46,7 +46,7 @@ const SignInForm:FC<signInProps> = ({}) =>{
     const signInData = await signIn('credentials', {
       email: values.email,
       password: values.password,
-      redirect: false,
+      //redirect: false,
     })
     if(signInData?.error){
       toast.error('Something went wrong with your login')
