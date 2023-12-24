@@ -1,4 +1,8 @@
-export default function Home() {
+import { db } from '@/lib/db';
+
+export default async function Home() {
+  await db.set('hello', 'world');
+  
   return(
     <div>
       <div className='text-red-500'>
@@ -7,3 +11,4 @@ export default function Home() {
     </div>
   )
 }
+  
