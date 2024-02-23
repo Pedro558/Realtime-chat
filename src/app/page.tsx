@@ -8,6 +8,10 @@ export default async function Home() {
       <div className='text-red-500'>
         Hello World
       </div>
+
+      <nav role='navigation'>
+        Menu
+      </nav>
     </div>
   )
 }

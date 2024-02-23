@@ -32,3 +32,9 @@ const Page: FC<PageProps> = () => {
 }
 
 export default Page;
+
+
+
+<div id="app">
+  <p class="frase">Texto qualquer</p>
+</div>
